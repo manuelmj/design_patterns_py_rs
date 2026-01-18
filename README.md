@@ -31,8 +31,8 @@ design_patterns/
 | **Abstract Factory** | ✅ | ✅ | Proporciona una interfaz para crear familias de objetos relacionados |
 | **Builder** | ✅ | ✅ | Construye objetos complejos paso a paso |
 | **Factory Method** | ✅ | ✅ | Crea objetos sin especificar sus clases exactas |
-| **Singleton** | 🔄 | 🔄 | Garantiza que una clase tenga una sola instancia |
-| **Prototype** | 📅 | 📅 | Crea objetos clonando instancias existentes |
+| **Singleton** | ✅ | ✅ | Garantiza que una clase tenga una sola instancia |
+| **Prototype** | ✅ | ✅ | Crea objetos clonando instancias existentes |
 
 ### Patrones Estructurales (Próximamente)
 
