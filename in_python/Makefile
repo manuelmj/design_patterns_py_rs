@@ -2,6 +2,8 @@ PYTEST=pytest -v --log-cli-level=INFO
 FACTORY_METHOD=creational/Factory/facotry_test.py
 ABSTRACT_FACTORY=creational/Abstract_Factory/abstract_factory_test.py
 BUILDER=creational/builder/builder_test.py
+PROTOTYPE=creational/prototype/prototype_test.py
+SINGLETON=creational/singleton/singleton_test.py
 # Corre todos los tests
 test:
 	$(PYTEST)
@@ -18,3 +20,10 @@ test-abstract-factory-method:
 
 test-builder-method:
 	$(PYTEST) $(BUILDER)
+
+test-prototype-method: 
+	$(PYTEST) $(PROTOTYPE)
+
+test-singleton-method:
+	$(PYTEST) $(SINGLETON)
+
