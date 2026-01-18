@@ -8,8 +8,8 @@ TEST_VERBOSE =-- --nocapture
 FACTORY_METHOD=factory_method_tests
 ABSTRACT_FACTORY_METHOD=abstract_factory_tests
 BUILDER_METHOD=builder_method_tests
-
-
+PROTOTYPE_METHOD=prototype_tests
+SINGLETON_METHOD=singleton_tests
 # Corre todos los tests
 test:
 	$(TEST)
@@ -30,3 +30,10 @@ test-abstract-factory-method:
 
 test-builder-method:
 	$(TEST) $(BUILDER_METHOD) $(TEST_VERBOSE)
+
+test-prototype-method:
+	$(TEST) $(PROTOTYPE_METHOD) $(TEST_VERBOSE)
+
+
+test-singleton-method:
+	$(TEST) $(SINGLETON_METHOD) $(TEST_VERBOSE)
